@@ -13,7 +13,7 @@ public class MyGraph {
         }
         this.vertexCount = vertexCount;
         adjLists = new LinkedList[vertexCount];
-        for (int i = 0; i < vertexCount; i++) {
+        for (int i =0; i < vertexCount; i++) {
             adjLists[i] = new LinkedList<>();
         }
     }

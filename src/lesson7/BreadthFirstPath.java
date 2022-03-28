@@ -38,7 +38,7 @@ public class BreadthFirstPath {
                 if (!marked[w]) {
                     marked[w] = true;
                     edgeTo[w] = currentVertex;
-                    distTo[w] = distTo[currentVertex] + 1;
+                    distTo[w] = distTo[currentVertex] +1;
                     queue.addLast(w);
                 }
             }
